@@ -97,8 +97,14 @@
         <mxCell id="rx5BBwoxbv0PvwcBal-X-40" value="dead letter queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rx5BBwoxbv0PvwcBal-X-27">
           <mxGeometry x="173.5" y="377" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="rx5BBwoxbv0PvwcBal-X-42" value="AWS Lambda" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.lambda;" vertex="1" parent="rx5BBwoxbv0PvwcBal-X-27">
+          <mxGeometry x="250" y="80" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rx5BBwoxbv0PvwcBal-X-43" value="작업 큐에 작업이 없으면 S3 에 완료처리" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rx5BBwoxbv0PvwcBal-X-27">
+          <mxGeometry x="208.38" y="40" width="123.25" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="rx5BBwoxbv0PvwcBal-X-29" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="40" width="450" height="450" as="geometry" />
+          <mxGeometry x="800" y="100" width="450" height="350" as="geometry" />
         </mxCell>
         <mxCell id="rx5BBwoxbv0PvwcBal-X-30" value="데이터 마트 및 대시보드 출력" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rx5BBwoxbv0PvwcBal-X-29">
           <mxGeometry x="18" width="152" height="30" as="geometry" />
