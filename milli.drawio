@@ -1,32 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14">
   <diagram name="페이지-1" id="4-Lb67SdzFMOUYUuRfFv">
-    <mxGraphModel dx="1356" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1493" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="h7YVWrTTgNY-4MRIAwYg-1" value="&lt;div&gt;이벤트 수집&lt;/div&gt;&lt;div&gt;(API 서버)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="160" width="140" height="50" as="geometry" />
+          <mxGeometry x="60" y="160" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h7YVWrTTgNY-4MRIAwYg-2" value="메시지 큐&lt;br&gt;(SQS)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="160" width="130" height="50" as="geometry" />
+          <mxGeometry x="210" y="160" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h7YVWrTTgNY-4MRIAwYg-3" value="Lambda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="190" width="80" height="20" as="geometry" />
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-3" value="&lt;div&gt;큐 처리&lt;/div&gt;&lt;div&gt;(Lambda)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h7YVWrTTgNY-4MRIAwYg-4" value="&lt;div&gt;데이터 저장소&lt;/div&gt;&lt;div&gt;(S3)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="160" width="120" height="50" as="geometry" />
+          <mxGeometry x="330" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h7YVWrTTgNY-4MRIAwYg-5" value="&lt;div&gt;데이터 카탈로그&lt;/div&gt;&lt;div&gt;(Glue Catalog)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="100" width="120" height="40" as="geometry" />
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-5" value="&lt;div&gt;데이터 카탈로그&lt;br&gt;(Glue Catalog)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="120" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="h7YVWrTTgNY-4MRIAwYg-6" value="&lt;div&gt;ETL 파이프라인&lt;/div&gt;&lt;div&gt;(Glue Job)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="170" width="110" height="40" as="geometry" />
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-6" value="&lt;div&gt;ETL 파이프라인&lt;/div&gt;&lt;div&gt;(Glue ETL Job)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="200" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h7YVWrTTgNY-4MRIAwYg-7" value="&lt;div&gt;쿼리 엔진&lt;/div&gt;&lt;div&gt;(Athena)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="760" y="640" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h7YVWrTTgNY-4MRIAwYg-8" value="&lt;div&gt;오케스트레이션&lt;/div&gt;&lt;div&gt;(Airflow)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="652" y="101" width="110" height="40" as="geometry" />
+          <mxGeometry x="760" y="520" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-9" value="&lt;div&gt;데이터웨어하우스&lt;/div&gt;&lt;div&gt;(Databricks)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-10" value="&lt;div&gt;스키마 추론기&lt;/div&gt;&lt;div&gt;(Glue Crawler)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="305" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-11" value="브론즈(JSON)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="210" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-12" value="실버(Delta Lake)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="237" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-13" value="골드(ML/AI)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="263" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
