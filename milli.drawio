@@ -13,35 +13,47 @@
         <mxCell id="h7YVWrTTgNY-4MRIAwYg-3" value="&lt;div&gt;큐 처리&lt;/div&gt;&lt;div&gt;(Lambda)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="190" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h7YVWrTTgNY-4MRIAwYg-4" value="&lt;div&gt;데이터 저장소&lt;/div&gt;&lt;div&gt;(S3)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="160" width="120" height="40" as="geometry" />
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h7YVWrTTgNY-4MRIAwYg-5" value="&lt;div&gt;데이터 카탈로그&lt;br&gt;(Glue Catalog)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="400" width="120" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="h7YVWrTTgNY-4MRIAwYg-6" value="&lt;div&gt;ETL 파이프라인&lt;/div&gt;&lt;div&gt;(Glue ETL Job)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="200" width="110" height="40" as="geometry" />
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-5" value="&lt;div&gt;데이터 카탈로그&lt;br&gt;(Unity Catalog)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="533" y="120" width="120" height="31" as="geometry" />
         </mxCell>
         <mxCell id="h7YVWrTTgNY-4MRIAwYg-7" value="&lt;div&gt;쿼리 엔진&lt;/div&gt;&lt;div&gt;(Athena)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="640" width="110" height="40" as="geometry" />
+          <mxGeometry x="330" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h7YVWrTTgNY-4MRIAwYg-8" value="&lt;div&gt;오케스트레이션&lt;/div&gt;&lt;div&gt;(Airflow)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="520" width="110" height="40" as="geometry" />
+          <mxGeometry x="140" y="80" width="118" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h7YVWrTTgNY-4MRIAwYg-9" value="&lt;div&gt;데이터웨어하우스&lt;/div&gt;&lt;div&gt;(Databricks)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="230" width="120" height="50" as="geometry" />
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="533" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h7YVWrTTgNY-4MRIAwYg-10" value="&lt;div&gt;스키마 추론기&lt;/div&gt;&lt;div&gt;(Glue Crawler)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="305" width="120" height="40" as="geometry" />
+          <mxGeometry x="330" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h7YVWrTTgNY-4MRIAwYg-11" value="브론즈(JSON)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="h7YVWrTTgNY-4MRIAwYg-11" target="h7YVWrTTgNY-4MRIAwYg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-11" value="RAW(JSON)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="210" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="h7YVWrTTgNY-4MRIAwYg-12" value="실버(Delta Lake)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="336" y="237" width="110" height="20" as="geometry" />
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-12" value="집계(Delta Lake)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="543" y="210" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="h7YVWrTTgNY-4MRIAwYg-13" value="골드(ML/AI)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="263" width="110" height="20" as="geometry" />
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-22" value="&lt;div&gt;데이터 저장소&lt;/div&gt;&lt;div&gt;(S3)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="345" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="h7YVWrTTgNY-4MRIAwYg-23" target="h7YVWrTTgNY-4MRIAwYg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-23" value="&lt;div&gt;데이터 카탈로그&lt;br&gt;(Glue Catalog)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="120" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-25" value="&lt;div&gt;데이터웨어하우스&lt;/div&gt;&lt;div&gt;(Databricks)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="533" y="165" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h7YVWrTTgNY-4MRIAwYg-6" value="&lt;div&gt;ETL 파이프라인&lt;/div&gt;&lt;div&gt;(Databricks Job)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="460" y="230" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
