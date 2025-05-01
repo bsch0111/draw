@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14">
   <diagram name="페이지-1" id="4-Lb67SdzFMOUYUuRfFv">
-    <mxGraphModel dx="2183" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1762" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,14 +67,14 @@
         <mxCell id="h7YVWrTTgNY-4MRIAwYg-31" value="&lt;div&gt;ETL 파이프라인&lt;/div&gt;&lt;div&gt;(Databricks Job)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;align=center;" parent="1" vertex="1">
           <mxGeometry x="416" y="1105" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="barxhps7K2m4HXtRd0EN-1" value="(1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="barxhps7K2m4HXtRd0EN-1" value="(2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="145" as="targetPoint" />
             <mxPoint x="134" y="145" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="barxhps7K2m4HXtRd0EN-2" value="&lt;div&gt;이벤트 수집 서버&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="115" width="140" height="60" as="geometry" />
+          <mxGeometry x="60" y="115" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="barxhps7K2m4HXtRd0EN-3" value="메시지 큐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="166" y="115" width="100" height="30" as="geometry" />
@@ -97,35 +97,116 @@
         <mxCell id="barxhps7K2m4HXtRd0EN-10" value="RAW(JSON)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="313" y="160" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="barxhps7K2m4HXtRd0EN-11" value="모델링 된 데이터" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="barxhps7K2m4HXtRd0EN-11" value="모델링 데이터" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="521" y="160" width="95" height="20" as="geometry" />
         </mxCell>
         <mxCell id="barxhps7K2m4HXtRd0EN-12" value="&lt;div&gt;ODS&lt;/div&gt;&lt;div&gt;데이터 저장소&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="323" y="120" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="barxhps7K2m4HXtRd0EN-15" value="&lt;div&gt;데이터웨어하우스&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="508.5" y="127" width="120" height="50" as="geometry" />
+          <mxGeometry x="508.5" y="127" width="120" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="barxhps7K2m4HXtRd0EN-16" value="(2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="barxhps7K2m4HXtRd0EN-16" value="(3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="298" y="145" as="targetPoint" />
             <mxPoint x="272" y="145" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="barxhps7K2m4HXtRd0EN-17" value="(3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="barxhps7K2m4HXtRd0EN-17" value="(4)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="496" y="149" as="targetPoint" />
             <mxPoint x="445" y="149" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="barxhps7K2m4HXtRd0EN-18" value="&lt;div&gt;ETL 파이프라인&lt;/div&gt;&lt;div&gt;(Databricks Job)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;align=center;" vertex="1" parent="1">
+        <mxCell id="barxhps7K2m4HXtRd0EN-18" value="&lt;div&gt;ETL 파이프라인&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;align=center;" vertex="1" parent="1">
           <mxGeometry x="416" y="155" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="barxhps7K2m4HXtRd0EN-19" value="로그 관리 시스템" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="243" width="530" height="20" as="geometry" />
+          <mxGeometry x="-50" y="243" width="566" height="20" as="geometry" />
         </mxCell>
         <mxCell id="barxhps7K2m4HXtRd0EN-20" value="협업 도구" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="521" y="243" width="109" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-21" value="클라이언트" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="105" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-23" value="(1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58" y="145" as="targetPoint" />
+            <mxPoint x="32" y="145" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-28" value="(2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157.5" y="380" as="targetPoint" />
+            <mxPoint x="131.5" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-29" value="&lt;div&gt;Fast API&lt;/div&gt;&lt;div&gt;Server&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="358.5" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-30" value="SQS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="163.5" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-31" value="Lambda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="163.5" y="380" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="305.5" y="345" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-33" value="Databricks Unity Catalog" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="310" width="321" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-34" value="Airflow(MWAA)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306.5" y="440" width="321" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="345" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-36" value="RAW(JSON)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310.5" y="395" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-37" value="모델링 데이터" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518.5" y="395" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-38" value="S3" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="318" y="365" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-39" value="Databricks" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="506" y="362" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-40" value="(3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295.5" y="380" as="targetPoint" />
+            <mxPoint x="269.5" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-41" value="(4)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="493.5" y="384" as="targetPoint" />
+            <mxPoint x="442.5" y="384" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-42" value="&lt;div&gt;Databricks Job&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;align=center;" vertex="1" parent="1">
+          <mxGeometry x="413.5" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-43" value="Cloudwatch, Databricks Logging System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-52.5" y="478" width="566" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-44" value="Slack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518.5" y="478" width="109" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-45" value="클라이언트" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-52.5" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-46" value="(1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55.5" y="380" as="targetPoint" />
+            <mxPoint x="29.5" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="barxhps7K2m4HXtRd0EN-47" value="AWS Beanstalk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="328.5" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
